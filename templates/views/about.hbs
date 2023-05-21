@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>headerLinks}}
+   <title>about us</title>
+</head>
+<body>
+  {{!-- navbar --}}
+    {{>navbar}}
+
+    <!-- Main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+              <!-- left side div -->
+              <div class="col-md-6 col-12 main_header_right">
+                <!-- about image -->
+                <figure>
+                    <img src="images/about.png" alt="ayushi" class="img-fluid" title="ayushi">
+                </figure>
+              </div>
+              
+              <!-- right side div -->
+              <div class="col-md-6 col-12 main_header_left">
+                <p>Welcome to weather app</p>
+                 <h1>I am a <span class="purple">MERN stack developer&nbsp;</span>Wanna connect with me</h1>
+                 <a href="/weather"><button class="purple-color">check now</button></a>
+              </div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- footer code -->
+     {{>footer}}
+</body>
+</html>

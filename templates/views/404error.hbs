@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+    <title>404</title>
+</head>
+<body>
+  {{!-- navbar --}}
+    {{>navbar}}
+
+    <!-- Main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+              <!-- left side div -->
+              {{!-- <div class="col-md-6 col-12 main_header_left align-items-center"> --}}
+                 <div class=" main_header_left align-items-center">
+                <!-- about image -->
+                    <img src="images/404.jpg" alt="404error" class="img-fluid errimg" title="ayushi">
+              
+                    <p>Welcome to Ayushi's World</p>
+
+                    <h1>{{errormsg}}</h1>
+
+                 <a href="/"><button>Go back</button></a>
+              </div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- footer code -->
+     {{>footer}}
+</body>
+</html>
